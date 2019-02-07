@@ -1,0 +1,196 @@
+    *{
+
+   
+
+
+    }
+
+#button {
+
+	display: flex; 
+	justify-content: center;
+
+height: 20px;
+width :100px;
+color: red;
+
+}
+
+
+.grid-container{
+
+
+}
+
+
+h1 {
+
+
+font-family: initial;
+font-size: 35px;
+color : #2b90d9;
+border: solid 2px #282c37;
+border-radius: 7px;
+text-align: center;
+
+
+}
+
+h1:hover {
+opacity: 1;
+	background-color: #d9e1e8	 ;
+	font-size: 35px;
+	color: #9baec8;
+	border: 1px solid white ;
+    border-radius : 30px ;
+}
+
+
+header {
+    background: #d9e1e8 ; 
+	text-align: center;
+    font-size: 100px ; 
+    color: #282c37;
+    
+    font-family: cursive ;
+    border-radius: 200px; 
+    transition: all 1s linear ; 
+
+}
+
+header:hover {
+
+   background:  #2b90d9 ; 
+	text-align: center;
+    font-size: 100px ; 
+    color: #d9e1e8;
+    border : 1px solid #FFC73A;
+    font-family: cursive ;
+    border-radius: 20px; 
+
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #d9e1e8;
+overflow: scroll ;
+height: 200rem;
+width: 390px;}
+  /*overflow: scroll ; /**** fait que tous les élements qui depasse de mon element vont etre caché 
+
+
+/* Style the links inside the navigation bar */
+.topnav  a  {
+  
+  color: #9baec8;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+/* Change the color of links on hover */
+.topnav a :hover {
+  background-color: #2b90d9;
+  color: #9baec8;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9baec8;
+  color: #282c37;
+
+  font-weight: 100px;
+}
+
+/*
+
+aside{
+  
+    font-size : 35px;
+    font-family: fantasy;	
+    border : 1px solid #FFE83A;
+	grid-area: aside;
+	margin : 10px;
+	padding: 20px;
+    border-radius: 20px; 
+
+}
+
+*/
+.titre{
+
+
+font-size: 50px ;
+font-family: cursive;
+color: #282c37; 
+
+
+
+}
+
+.catégorie{
+
+font-family: 'Courier New', Courier, monospace;
+color: #282c37; 
+
+    font-size : 40px; 
+}
+
+
+
+.film{ /**class**/
+    font-size: 20px;
+    
+    padding: 10px ;
+    color: #d9e1e8 ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   border-radius: 20px; 
+
+   
+
+
+}
+
+.titre.Catégories{
+
+
+font-size: 100px;
+
+}
+#titreFilm{  /*** id *****/ 
+
+
+font-size: 50px;
+font-family: cursive; /*****police******/
+color: #FFCC94;
+ width: 250px;
+ display: flex;
+ justify-content: center; 
+
+}
+
+
+#titreFilm:hover { /***id****/
+
+	background-color: #FFA13A;
+	color: white;
+}
+
+
+.film:first-child{ /********classe****/
+
+	padding: 10px;
+	}
+
+
+
+
+#footer{ /**********id***/
+
+font-family: cursive;
+background-color: red;
+font-size:100px;
+
+
+
+}
